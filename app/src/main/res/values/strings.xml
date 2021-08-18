@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">D20App</string>
+    <string name="button">Button</string>
+    <string name="roll">Roll!</string>
 </resources>
