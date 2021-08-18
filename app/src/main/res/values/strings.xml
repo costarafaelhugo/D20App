@@ -2,4 +2,6 @@
     <string name="app_name">D20App</string>
     <string name="button">Button</string>
     <string name="roll">Roll!</string>
+    <string name="todo">TODO</string>
+    <string name="ImagemDoDado">Imagem do dado</string>
 </resources>

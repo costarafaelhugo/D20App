@@ -2,7 +2,7 @@ package com.hugorafaelcosta.d20app
 
 import android.os.Bundle
 import android.widget.Button
-import android.widget.TextView
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
     private fun rollDice() {
         val dice = Dice(20)
         val diceRoll = dice.roll()
-        val resultTextView: TextView = findViewById(R.id.result)
-        resultTextView.text = diceRoll.toString()
+        val diceImage: ImageView = findViewById(R.id.result)
+        diceImage.setImageResource(R.drawable.d2)
     }
 }
 
